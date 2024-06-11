@@ -26,7 +26,7 @@ export default function Review({ formData, paymentFormData }) {
   ];
   useEffect(() => {
     console.log(`Fetching details for houseId: houseId=${houseId}`);
-    axios.get(`http://localhost:8081/api/checkout?houseId=${houseId}`)  //api/checkout/getCheckout
+    axios.get(`https://house-rental-booking.onrender.com/api/checkout?houseId=${houseId}`)  //api/checkout/getCheckout
       .then(response => {
         console.log('Fetched house details:', response.data);
         setHouseDetails(response.data);
