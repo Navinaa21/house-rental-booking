@@ -24,7 +24,7 @@ function Details({ openModal, showModal,closeModal }) {
   const [selectedHouse, setSelectedHouse] = useState(null);
   useEffect(() => {
     // Fetch house details from the backend
-    axios.get('http://localhost:8081/api/houses')
+    axios.get('https://house-rental-booking.onrender.com/api/houses')
       .then(response => {
         setHouseDetails(response.data);
       })
@@ -110,7 +110,7 @@ function Details({ openModal, showModal,closeModal }) {
         <div className="card-container">
           {filteredHouseDetails.map((house) => (
             <div className="card1" key={house.ID}>
-              <img src={`http://localhost:8081/images/${house.img}`} alt={house.title} className="card-image1" />
+              <img src={`https://house-rental-booking.onrender.com/images/${house.img}`} alt={house.title} className="card-image1" />
               <div className="card-details">
                 <h2 className="card-title1">{house.title}</h2>
                 <p className="card-location">Location : {house.location}</p>
