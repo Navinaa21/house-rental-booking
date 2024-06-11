@@ -37,7 +37,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-       const response = await axios.post('http://localhost:8081/api/auth/login', formData);
+       const response = await axios.post('https://house-rental-booking.onrender.com/api/auth/login', formData);
 
       const data = response.data;
       const email = formData.email;
