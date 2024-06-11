@@ -1,0 +1,518 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+
+/* Style for the footer */
+.header{
+  background-color: #e29141e1;
+}
+.footer {
+  background-color: #e29141e1;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.stbt{
+  background-color: #e29141e1 ;
+}
+.st{
+  display: flex;
+  justify-content: center;
+}
+.footer h3 {
+  color: #ffffff;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Style for footer links on hover */
+.footer h3:hover {
+  text-decoration: underline;
+}
+
+
+.top-up{
+  height: 16cm;
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  padding-top: 0.3cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  background-color: #f9f1eb;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  border-radius: 30px ; /* Rounded corners only at the top */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.home-pg{
+  background-color:#cdbc98d0;
+
+}
+
+.wri{
+  margin-left: 1cm;
+  margin-top: 1cm;
+  font-size:large;
+  font-weight: 200;
+  font-size: 1cm;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ri{
+  margin-left: 1.2cm;
+  font-size:1cm;
+  font-weight: 900;
+  color: rgb(232, 155, 13);
+}
+.wri2{
+  margin-left: 0.5cm;
+  margin-top: 1cm;
+  color: #4d3522;
+}
+.sh{
+  background-color: orange;
+}
+.sbr{
+  padding-top: 1cm;
+  margin-left: 1cm;
+}
+.h1-container {
+  display: flex;
+  align-items: center; 
+  margin-top: 0.7cm;
+  margin-left: 1cm;
+}
+.blw{
+  margin-right: 1cm;
+  font-weight: 700;
+}
+
+.gp{
+  font-weight: 900;
+  font-size:larger;
+  color: rgb(208, 144, 24);
+}
+
+.im2{
+  border-radius: 1cm;
+  float: right;
+  height: 11cm;
+  width: 16cm;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btm {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 40px; /* Adjust as needed */
+}
+.btm button{
+  background-color: #ffaa00; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Cursor style */
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+.btm button:hover{
+  background-color: #a08645; 
+}
+
+.btm button:active {
+  background-color: #8e753e; /* Even darker green */
+}
+
+.caro img{
+  height: 15cm;
+  border-radius: 2cm;
+  margin-top: 3cm;
+  padding: 1cm;
+}
+.carousel .thumbs{
+  display: none;
+}
+/* App.css */
+
+/* Fade animation */
+/* App.css */
+
+/* Define slide animation */
+
+
+/* Apply animation to carousel */
+/* App.css */
+
+/* Fade animation */
+@keyframes slideRight {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Apply animation to carousel */
+.carousel .carousel-slider {
+  animation: slideRight 1s ease-in-out;
+}
+.imp{
+  text-align: center;
+  font-size:xx-large;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color: white;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+}
+
+nav span{
+  cursor: pointer;
+}
+
+.ffot {
+  width: 100%;
+}
+
+form{
+  margin-top: 3cm;
+}
+
+
+/* App.css */
+/* App.css */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* flex-grow: 1; */
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.filter-dropdown {
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.src {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.src div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.src h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.src p {
+  font-size: 14px;
+  color: #666;
+}
+/* App.css */
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 1cm;
+}
+
+.card-container {
+  display: block;
+}
+
+.card1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex; /* Use flexbox to align image and details */
+  max-width: 40cm;
+  border-radius: 10px;
+  height: 9cm;
+  flex: 0 0 calc(25% - 20px); /* Make each card take up one-quarter of the container width, minus some margin */
+  margin: 10px;
+  margin-bottom: 1cm;
+}
+
+.card-image1 {
+  width: 50%; /* Adjust the width of the image */
+  object-fit: cover;
+}
+
+.card-details {
+  padding: 40px;
+  flex: 1;
+}
+
+.card-title1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-location {
+  margin: 5px 0;
+  color: #666;
+  margin-top: 0.4cm;
+}
+
+.card-price {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #009688;
+}
+
+.card-info {
+  margin: 5px 0;
+  color: #777;
+}
+
+/* CONTACT button */
+.contact-btn {
+  background-color: #3072eb; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding */
+  margin-right: 1cm; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  margin-top: 0.5cm;
+}
+
+.contact-btn:hover {
+  background-color: #0014f5; /* Darker orange color on hover */
+}
+
+/* BUY button */
+.buy-btn {
+  background-color: #de5320; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+}
+
+.buy-btn:hover {
+  background-color: #b8150f; /* Darker blue color on hover */
+}
+
+
+
+/* styles.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.modal1 h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+  padding: 1cm;
+}
+.modal1 p{
+  font-size:large;
+}
+.modal1 button{
+  background-color: red;
+  padding: 0.3cm;
+  border-radius: 0.2cm;
+  margin: 0.5cm;
+}
+.btn-mod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Additional CSS styling for modal */
+.bck-ig{
+  background-image: url('./images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.alr{
+  color: blue; /* Change link color */
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 0.5cm;
+  cursor: pointer;
+}
+
+
+.view-btn{
+  background-color: #3072eb; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding */
+  margin-right: 1cm; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  margin-top: 0.5cm;
+
+}
+.mod1{
+  font-size: larger;
+  margin: 1cm;
+}
+.mod1 p{
+  padding: 0.3cm;
+}
+
+.drop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for the select element */
+.drop select {
+  width: 200px; /* Default width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Style for the arrow icon */
+.drop select::after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style for the options within the dropdown */
+.drop select option {
+  font-size: 16px;
+}
+
+/* Style when the dropdown is open */
+.drop select:focus {
+  outline: none;
+  border-color: #007bff; /* Change to your preferred focus color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Change to your preferred shadow */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .drop select {
+    width: 180px; /* Slightly smaller width for medium screens */
+    font-size: 15px; /* Slightly smaller font size */
+  }
+}
+
+@media (max-width: 992px) {
+  .drop select {
+    width: 160px; /* Smaller width for smaller screens */
+    font-size: 14px; /* Smaller font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .drop select {
+    width: 140px; /* Smaller width for tablets */
+    font-size: 13px; /* Smaller font size */
+  }
+}
+
+@media (max-width: 576px) {
+  .drop select {
+    width: 120px; /* Smaller width for mobile phones */
+    font-size: 12px; /* Smaller font size */
+    padding: 8px; /* Reduced padding for smaller screens */
+  }
+}
+
+/* .tb{
+  
+} */
+
+.add-pg{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #efeae5;
+}
+
+.ftm {
+  margin-top: auto;
+}
+.dtl-pg{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #cdbc98d0;
+}
+
+
+
+

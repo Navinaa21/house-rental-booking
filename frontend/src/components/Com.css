@@ -1,0 +1,161 @@
+.card {
+    border-radius: 10px;
+    background-color: aliceblue;
+    overflow: hidden;
+    height: 9cm;
+    margin-bottom: 20px;
+    flex: 0 0 calc(25% - 20px); /* Make each card take up one-quarter of the container width, minus some margin */
+    margin: 10px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    object-fit: cover;
+    width: 100%;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    text-align: center;
+    background-color: orange;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-description {
+    font-size:large;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .cards-container {
+    display: flex;
+    margin-bottom: 2.5cm;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if there's not enough space */
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 20px); /* Make each card take up one-third of the container width, minus some margin */
+    margin: 10px; /* Add some margin around each card */
+  }
+  
+  .find-home{
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+ .ft{
+  cursor: pointer;
+ }
+
+ .tl{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+
+
+
+
+ .frm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;  /* Set a maximum width for the form */
+  margin: 0 auto;  /* Center the form horizontally */
+  width: 90%;  /* Set the width to 90% of the parent container */
+}
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;  /* Make sure the text fields take the full width of the form */
+}
+
+.MuiButton-root {
+  margin-top: 20px;
+  background-color: #1976d2;
+  color: #ffffff;
+  width: 100px;  /* Make the button take the full width of the form */
+}
+
+.MuiButton-root:hover {
+  background-color: #155a9a;
+}
+
+.tl .MuiTabs-indicator {
+  background-color: #1976d2;
+}
+
+.tl .MuiTab-root {
+  text-transform: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tl .Mui-selected {
+  color: #1976d2;
+}
+.hd{
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 0.5cm;
+}
+
+ .hdm h1{
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card2 {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-details1 {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.card-details1 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-details1 p {
+  margin-bottom: 5px;
+}
