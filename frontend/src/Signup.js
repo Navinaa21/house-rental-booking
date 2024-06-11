@@ -25,7 +25,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       console.log("Form submitted");
-      await axios.post('http://localhost:8081/api/auth/signup', formData);
+      await axios.post('https://house-rental-booking.onrender.com/api/auth/signup', formData);
       navigate('/login');
     } catch (error) {
       console.error('Error signing up:', error);
