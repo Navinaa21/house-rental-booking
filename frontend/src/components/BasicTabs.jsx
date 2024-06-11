@@ -53,7 +53,7 @@ export default function BasicTabs() {
     }
 
     // Replace with your backend endpoint
-    axios.post('http://localhost:8081/api/houses', formDataToUpload)
+    axios.post('https://house-rental-booking.onrender.com/api/houses', formDataToUpload)
       .then(response => {
         window.location.reload();
         console.log('House details uploaded:', response.data);
@@ -75,7 +75,7 @@ export default function BasicTabs() {
     const [houseDetails, setHouseDetails] = useState([]);
     useEffect(() => {
       console.log(`Fetching details for houseId: id=${userid}`);
-      axios.get(`http://localhost:8081/api/houses/update?id=${userid}`)
+      axios.get(`https://house-rental-booking.onrender.com/api/houses/update?id=${userid}`)
       
         .then(response => {
           console.log('Fetched house details:', response.data);
