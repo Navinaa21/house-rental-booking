@@ -93,7 +93,7 @@ export default function Checkout() {
 
   useEffect(() => {
     console.log(`Fetching details for houseId: houseId=${houseId}`);
-    axios.get(`http://localhost:8081/api/checkout?houseId=${houseId}`)
+    axios.get(`https://house-rental-booking.onrender.com/api/checkout?houseId=${houseId}`)
     
       .then(response => {
         console.log('Fetched house details:', response.data);
@@ -114,7 +114,7 @@ export default function Checkout() {
 
   const handleNext = () => {
     if (activeStep === steps.length - 1) {
-      axios.post(`http://localhost:8081/api/checkout?houseId=${houseId}`, formData)
+      axios.post(`https://house-rental-booking.onrender.com/api/checkout?houseId=${houseId}`, formData)
         .then(response => {
           console.log('Form submitted successfully:', response.data);
           setActiveStep(activeStep + 1); 
