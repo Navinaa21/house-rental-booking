@@ -89,7 +89,7 @@ export default function BasicTabs() {
 
     const handleDelete = (houseId) => {
       // Replace with your backend endpoint for deleting a house
-      axios.delete(`http://localhost:8081/api/houses/${houseId}`)
+      axios.delete(`https://house-rental-booking.onrender.com/api/houses/${houseId}`)
         .then(response => {
           console.log('House deleted:', response.data);
           window.location.reload();
@@ -254,7 +254,7 @@ export default function BasicTabs() {
           <div className="card-container">
             {houseDetails.map((house) => (
               <div className="card1" key={house.ID}>
-                <img src={`http://localhost:8081/images/${house.img}`} alt={house.title} className="card-image1" />
+                <img src={`https://house-rental-booking.onrender.com/images/${house.img}`} alt={house.title} className="card-image1" />
                 <div className="card-details">
                   <h2 className="card-title1">{house.title}</h2>
                   <p className="card-location">Location : {house.location}</p>
